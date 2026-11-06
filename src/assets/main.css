@@ -1,0 +1,27 @@
+/* 全局基础样式；各页面自己的布局写在对应组件的 scoped 样式中。 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #0f172a;
+  background: #f8fafc;
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    'Microsoft YaHei',
+    sans-serif;
+  line-height: 1.5;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+#app {
+  display: flow-root;
+  min-height: 100vh;
+}
